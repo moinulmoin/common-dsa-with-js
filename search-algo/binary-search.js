@@ -1,6 +1,6 @@
 function binarySearch(arr, t) {
 	let leftIndex = 0;
-	let rightIndex = arr.length;
+	let rightIndex = arr.length - 1;
 
 	while (leftIndex <= rightIndex) {
 		let middleIndex = Math.floor((leftIndex + rightIndex) / 2);
