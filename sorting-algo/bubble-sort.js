@@ -40,7 +40,10 @@ function reverseBubbleSort(arr) {
 	} while (swapped);
 }
 
-reverseBubbleSort(arr1);
-reverseBubbleSort(arr2);
+const arr3 = [-6, 20, 8, -2, 4];
+const arr4 = [16, 20, 8, -22, 40];
 
-console.log(arr1, arr2);
+reverseBubbleSort(arr3);
+reverseBubbleSort(arr4);
+
+console.log(arr3, arr4);
