@@ -15,7 +15,7 @@ function insertionSort(arr) {
 	return arr;
 }
 
-// BigO - (O(n))
+// BigO - (O(n^2))
 
 function reverseInsertionSort(arr) {
 	for (let i = 1; i < arr.length; i++) {
